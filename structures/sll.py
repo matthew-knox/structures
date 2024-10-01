@@ -1,4 +1,4 @@
-# singly_linked_list.py
+# sll.py
 
 from .node import Node
 

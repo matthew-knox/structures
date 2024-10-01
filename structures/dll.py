@@ -1,4 +1,4 @@
-# doubly_linked_list.py
+# dll.py
 
 from .node import Node
 
