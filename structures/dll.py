@@ -126,3 +126,20 @@ class DoublyLinkedList:
             count += 1
             current = current.next
         return count
+
+    def traverse_forward(self):
+        """
+        Traverse the doubly linked list from head to tail,
+        returning the values as a list.
+        """
+        if self.head is None:
+            print("The list is empty.")
+            return []
+
+        result = []
+        current = self.head
+        while current:
+            result.append(current.value)  # Add the value of the current node
+            current = current.next  # Move to the next node
+
+        return result
